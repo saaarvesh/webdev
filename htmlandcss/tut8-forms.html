@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role"> role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <label for="date">date</label>
+        <br>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="Bonus">Bonus </label>
+        <div>
+            <input type="number" name="myBonus" id="Bonus">
+        </div>
+        <br>
+        <label for="check">Bonus </label>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" id="check" checked>
+        </div>
+        <br>
+        <label for="Gender">Gender </label>
+        <div>
+            Gender: Male <input type="radio" name="myGender" id="Gender"> Female <input type="radio" name="myGender" checked>
+            Other <input type="radio" name="myGender" >
+        </div>
+
+        <br>
+        <label for="area">Write about yourself:</label>
+        <div>
+             <textarea name="myText" cols="90" rows="10" id="area"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
